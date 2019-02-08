@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head>
 <meta charset="UTF-8">
@@ -575,3 +576,779 @@ https://ofcourse.kr/ 사이트같이 만들어 볼 것
 
 
 </html>
+=======
+<!-- saved from url=(0058)file:///C:/Users/HJPARK/Desktop/WEB2%20-%20JavaScript.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>WEB2 - JavaScript</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128738670-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128738670-3');
+</script>
+
+<style>
+
+	a:visited{color:lime;}
+	a:hover{color:blue; background-color:yellow;}
+	a:active{color: red; font-weight: bold;}
+ 	a{ color:black; text-decoration: none;}
+
+	table{
+		/* width : 100%; */
+		border : 1px gray solid;
+		 border-collapse : collapse; 
+		display: grid;
+		border-width:30px;
+		justify-content: center;
+		}
+			
+	th, td { border:1px gray solid; width:100%}
+
+	html, body{ background-color : white; margin: 0px;}
+
+   
+   div#block h1{ font-size : 500%; text-align : center;
+   border-bottom : 10px double silver; background-color : #000000; color:yellow;
+   padding : 20px; margin: 0px;}
+   
+ 
+   
+  div#grid > ol{
+  border-right : 15px groove silver;
+  width: 100px;
+  margin: 0;
+  padding : 20px;
+  }
+  body{margin:0;}
+  
+    #grid{
+ 	display : grid;
+ 	grid-template-columns : 150px 1fr;
+ 	}
+ 	#block{dispaly : block;}
+ 	
+ 	#grid ol{padding-left : 33px;}
+ 	#article{padding-left : 25px;     padding-bottom: 25px;}
+ 	
+ 	@media(max-width : 800px){
+	 	#grid{display: block;}	
+	 	div#grid > ol{ border-right : none;}
+	 	div#block h1{border-bottom : none;}
+	 	div.three{border: none}	 	
+	 	}
+	 	
+	.wrap {
+	display : grid;
+	grid-template-row : auto;
+	}
+	
+	.three{ border-top : 10px groove silver;}
+   
+
+</style></head>
+
+
+<body>
+ <section class=".wrap">
+
+	<div id="block">
+	<h1 style=" margin: 0px;">
+		
+			<a href="index.html">WEB2</a>
+		
+	</h1>
+	</div>
+	
+	
+	<div id="grid">
+		<ol>
+			<li><a href="1.html" >HTML</a></li> 
+			<li><a href="2.html"  >CSS</a></li>
+			<li><a href="3.html" >JavaScript</a></li>
+			<li><a href="box.html">box</a></li>
+			<li><a href="memo.html" >memo</a></li>
+			<li><a href="sensor 종류.html" >sensor 종류</a></li>
+		</ol>
+	
+
+
+  <div id="article">
+	<h1>"h1~h6" : HTML heading HTML 제목</h1>
+	<h2>Memo</h2>
+
+
+
+	
+
+<h1 style="font-size: 25pt; color:red;"> HTML</h1>
+	
+
+	https://www.w3.org/TR/html51/ : W3C는 맴버들이 모여 recommendation을 공고 -&gt; 기업들이
+	브라우저 제작
+
+<!--
+<table width="90%" cellpadding="5" cellspacing="0" border="1" align="center" style="border-collapse:collapse; border:1px gray solid;">
+<tr>
+ <td>border-collapse:collapse;</td>
+</tr>
+</table>	
+	-->
+
+<table>
+	<thead>
+		<tr>
+			<th><a :="" href="http://aboooks.tistory.com/87" ,="" target="_blank" title="설명"> 참조 사이트</a></th>
+			<th>1</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a :="" href="http://aboooks.tistory.com/87" ,="" target="_blank" title="링크에 대한 설명">anchor detail</a></td>
+			<td>2</td>
+		</tr>
+	</tbody>	
+</table>
+	<p>
+		&lt;&gt; tag! <br> 단락을 표현할 때는 줄바꿈 태그 보다는 단락을 표현하는 태그인 p 태그가 더 좋다. 웹페이지를
+		정보로서 가치있게 해준다. <br> br태그는 줄바꿈을 의미할 뿐 br 태그는 줄바꿈을 많이하고 싶으면 여러번
+		쓰면된다. <br> p(paragraph) 태그는 단락과 단락의 간격이 고정되어 있게 떄문에 시각적 자유도가 떨어지는
+		단점이 있다.
+	</p><p>단점 극복 방법으로는 css style=""로 margin 간격으로 조절가능</p>
+	margin : 여백, 여유, 차이
+	<p>src, width 같은 것들은 attribute 속성 이라고한다.</p>
+	<br>li = list
+	<br> ol ordered list 숫자 알파벳 목록
+	<br> ul unordered list 순서가 필요없는 목록
+	<br> dl definition list 사전처럼 용어 설명하는 목록
+	<br>
+	<br>alt + shift + a : 세로블럭지정(이클립스)
+	<br> title : 제목, meta charset="UTF-8" : 문자 설정 (charset : character
+	set)
+	<br> body : 본문을 표시 , head : 본문을 설명할떄 , HTML : body 와 head를 감싸는 태그
+	<br> 관용적으로 이 웹페이가 HTML로서 만들어 졌다는 표현을 위해 문서 시작에 !doctype html을 쓴다
+	<br> a : link ★★★★★ 중요함
+	<br> a : href="URL" h(hyper text) ref(reference)
+	<br> target="" 링크를 클릭 할 때 창을 어떻게 열 것인가
+	<br> title="" : 해당 링크에 마우스를 갖다대면 link에 대한 설명이 나온다.
+	
+	ex) iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE"
+	 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+	 allowfullscreen&gt;
+	<br> iframe : 동영상 삽입 기능 (옵션 width : 넓이 heigh 높이 src: 소스주소 frameborder : 경계? 표시줄? allow 
+	<br>
+	<br> <a href="sensor 종류.html">gyroscope , accelerometer </a>
+		
+	</div>
+
+
+</div>
+
+
+
+
+
+<div class="three">
+
+<h1>CSS</h1>
+
+
+
+<p>
+
+
+a , h1 태그는 font태그와는 다르다
+
+a 태그는 이게 링크라는 정보이고 h1은 이게 제목이다라는 정보이다
+<br>
+반대로 font태그는 Web에 대한 어떠한 정보를 가지고 있지 않다. 빨간색으로 표현으로 한다는 디자인이지만 디자인이 보는 시각에 따라 정보가 아닐수도 있다. 예를 들어 시각장애인이 봤을 때 의미없을 수도 있기 때문에
+정보로써의 가치가 떨어진다.
+예를 들어 아침점심저녁으로 웹링크 색깔을 수시로 바꿔달라고 하는 필요한 경우때문에 CSS가 필요해진 것이다
+
+
+</p><h1>CSS 등장</h1>
+
+
+처음에 브라우저 등장에는 HTML만 등장하였다.
+<br>
+CSS 언어는 HTML과 완전 다른 언어이다.
+<br>
+HTML문법으로 CSS 문법으로 이해해라 명렁어 입력 필요
+<br>
+웹 브라우저 안에 Style안에 있는 언어는 CSS라고 이해하라고 말하는 것과 같다.
+<br>
+CSS에서 a = link 전부 고르는 것 // color:red;
+
+CSS는 새로 배워야 해서 학습자 입장에선 부담?
+<br>
+브라우저 입장에서는 폰트 태그는 태그만 추가하면 된다
+<br>
+새로운 언어를 해석하는 기능 탑재하기 때문에 어려운 일이다
+<br>
+CSS를 그럼에도 사용하는 이유는 폭팔적인 이유,효과가 있다.
+
+코딩을 잘하는 법은 중복의 제거// 웹페이지의 중복된 코드 차이가 1억씩 차이가 날 수 있다.
+<br>
+CSS 사용의 이유는
+유지보수를 더 편리하게 할 수 있고, 가독성 또한 높아진다. 웹페이지를 디자인하는 것이 훨씬 더 효과적으로 될 수 있다.
+
+html은 중요하기 때문에 정보의 기능을 전념하기 위해 나온 것이 CSS
+
+CSS을 통해서 디자인하는 것이 HTML로 통해 디자인하는 것 보다 훨씬 효율적이다.
+
+
+<h1>CSS 기본문법</h1>
+
+CSS는 Style 태그 외에 속성이란 방법이 존재 총 2가지
+	<ol>
+		<li>style태그를 쓴다</li>
+		<li>style속성을 쓴다.</li>
+	</ol>
+<img src="CSS1.jpg"><br>
+style이라는 속성을 쓰면 웹브라우저는 CSS문법에 따라 해석해서 그 결과를 스타일 속성이 위치한 태그에 적용할 것이다
+style="" 따옴표 안에는 HTML속성이며 약속으로 반드시 그 값으로 CSS 효과가 들어온다.
+<br>
+상위의 style 태그는 누구에게 지정할지 알수없다.
+누구에게 줄 것인가 선택할수 있기에 a 부분을 selecter라고 부른다
+<br>
+color부분(효과부분)은 선언(declaration)이라고 한다.
+<br>
+
+<br>
+declaration 은 우리가 스타일 태그를 직접 사용한 경우에는
+스타일 태그가 위치한 태그에게 직접 효과를 줄 것이기 때문에
+선택자를 사용할 필요없다.
+<br>
+style="color"부분도 declaration이다.
+<br>
+semicolon은 한줄에 description및 효과를 구분하기 위해서 적는 것이다.
+
+
+
+
+<h1> 혁명적인 변화</h1>
+
+<img src=" CSS2.jpg" width="500"><br>
+
+<h1> CSS 속성을 스스로 알아내는 방법</h1>
+
+web 가운데 정렬 글씨 크기 하는 법
+
+css text size up property 검색
+<br><img src=" CSS3.jpg"><br>
+
+
+css text align center property 검색<br>
+<img src=" CSS4.jpg"><br>
+
+<p>
+결과<br>
+
+<img src=" CSS5.jpg" width="500"><br>
+<img src=" CSS6.jpg"><br>
+</p>
+
+<br>
+검색할 필요 없이 자동완성을 써도 괜찮다.
+
+<p>
+개요 <br>
+태그에서 설정한 id나 class 속성에 따라 스타일을 지정합니다. <br>
+참고: HTML 태그의 속성 <br>
+
+id 에 줄 경우 아래처럼 #을 맨 앞에 붙여 사용하며, 원칙적으로 하나의 객체에만 적용할 수 있습니다.
+<br>
+#아이디{ 속성1:속성값; 속성2:속성값; }  <br>
+class에 줄 경우 아래처럼 .을 맨 앞에 붙여 사용하며, 여러 객체에 적용할 수 있습니다.
+<br>
+.클래스명{ 속성1:속성값; 속성2:속성값 }
+<br>
+</p>
+
+
+
+
+
+
+<h1>CSS 선택자를 스스로 알아내는 방법</h1>
+
+<br>
+.을 빼고 선택자(selecter)이름만 쓰게 되면 웹페이지에 있는 이름을 선택하게 되는 선택자이다.
+<br>
+.을 붙이면 Class가 .(이름)인 태그를 가르키는 선택자가 된다.
+<br>
+Class는 같은 의도에 따라 grouping 따라 묶는 것을 말한다.
+<br>
+해당 태그에 여러 class를 넣을 수 있다.
+<br>
+같은 Class끼리 우선 순위를 쓰게되면 제일 나중에 class 정의한 것이 활성화 된다.
+<br>
+이것을 해결하기 위해 ID를 넣는다
+<br>
+ID선택자의 경우 Class보다 우선순이가 높다.
+<br>
+선택자 우선 순위는 ID&gt;Class&gt;a 순서이고 같은 우선순위끼리는 나중에 정의한 것이 활성화된다.
+<p>&nbsp;</p>
+
+<img src=" CSS7.jpg"><br>
+<br>
+우선순위의 이유는 ID 선택자는 한번만 동작하고 Class 선택자 중복되어서 동작 가능하고 a 선택자는 모든 부든에서 활성화하기 때문이다.
+<br>
+<strong>좀더 포괄적인 것보다 구체적인 것이 우선순위를 높게 순위를 두었다.</strong>
+<br>
+
+
+
+
+<a href="https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048">선택자 종류 중요 </a>
+
+
+<h2>CSS box model 소개</h2>
+
+<p>&nbsp;</p>
+
+<p>h1 태그&nbsp;같은 코드줄에 있는데 줄바꿈이 되고 제목 태그는 화면 전체를 쓰는 것이 기본적으로 편리하기 때문이고</p>
+
+<p>a 태그는 같은 코드줄에 있는데 줄바꿈이 되지않는다. 링크태그는 화면 전체를 쓴다면 링크 앞뒤로 있는 줄바꿈이 된다면 불편하기 때문에 자기 컨텐츠만 쓰기 때문에 줄바꿈이 필요없다.</p>
+
+<p>&nbsp;</p>
+
+<p>h1과 a 태그에 테두리를 그리면 부피감을 알수가있다.</p>
+
+<p>style에서</p>
+
+<p>h1, a - selecter</p>
+
+<p>property-&nbsp;<span style="font-size: 13.2px;">border, display, padding, margin, width</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px;color:#000000;"><strong>block level element : 화면 전체를 쓰는 태그 (ex. h1</strong></span></p>
+
+<p><span style="font-size:14px;color:#000000;"><strong>inline element : 자기 자신의 컨텐츠를 갖는 태그 (ex. a</strong></span></p>
+
+<p>property 값으로 display : line, block, none 등으로 설정을 바꿀 수있다.</p>
+
+<p>기타는 궁금하면 검색해볼 것</p>
+
+<p>padding - border 안쪽과 글자의 거리&nbsp;</p>
+
+<p>margin - border 바깥 부분과 다른 부분과 거리</p>
+
+<p>&nbsp;</p>
+
+<p>크롬에서 F12 버튼을 누르면 적용된 소스를 비교 검사할 수 있으니 참고 할 것</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2>박스 모델을 써먹기</h2>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+개발자모드를 사용해서 각각의 그림과 같이 빈칸의 위치 및 구조 파악으로 수정 사항 확인
+<p>&nbsp;</p>
+<img src=" CSS10.jpg" width="600">
+<p>&nbsp;</p>
+<img src=" CSS11.jpg" width="600">
+<p>&nbsp;</p>
+<img src=" CSS12.jpg" width="600">
+<p>&nbsp;</p>
+<img src=" CSS13.jpg" width="600">
+<p>&nbsp;</p>
+
+
+
+
+<h2>그리드의 기본 사용법</h2>
+
+<p>&nbsp;</p>
+
+<p>grid</p>
+
+<p>grid-template-colums : 2fr 1fr</p>
+
+
+<p>&nbsp;</p>
+<img src=" CSS15.jpg" width="600">
+<p>&nbsp;</p>
+
+<p>화면 전체를 사용하게는 자동조절 범위 단위 fr로 생각할 것</p>
+
+<p>fr 단위는 글자에 따라 범위가 바뀌게 때문에 유용하다.</p>
+
+<p>&nbsp;</p>
+<img src=" CSS16.jpg" width="600">
+<p>&nbsp;</p>
+
+
+<p>현재 브라우저 버전별로 태그를 사용가능한지 확인 할 수 있는 사이트</p>
+
+<p><a href="http://caniuse.com/">http://caniuse.com/</a></p>
+<p>&nbsp;</p>
+<img src=" CSS14.jpg" width="600">
+<p>&nbsp;</p>
+
+<h2 style="margin: 1em 0px 0.5em; padding: 0px 0px 0.2em; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-bottom-style: dotted; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(133, 133, 133); border-left-color: initial; border-image: initial; outline: 0px; font-size: 1.6em; vertical-align: baseline; color: rgb(51, 51, 51); font-family: NanumGothic, sans-serif;">그리드 써먹기</h2>
+
+<div><span style="font-size: 10.89px;">#grid{</span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span>display : grid;</span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span>grid-template-columns : 150px 1fr;</span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span>}</span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span></span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span>#grid ol{padding-left : 33px}</span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span></span></div>
+
+<div><span style="font-size: 10.89px;">&nbsp;<span style="white-space:pre"> </span>#article{padding-left : 25px}</span></div>
+
+<p>&nbsp;</p>
+<img src=" CSS17.jpg" width="600">
+<p>&nbsp;</p>
+
+크롬 개발자 도구로 여백 조절이 가능하다.
+
+<p>&nbsp;</p>
+<img src=" CSS18.jpg" width="600">
+<p>&nbsp;</p>
+
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+<h2>반응형 디자인과 미디어 쿼리 소개</h2>
+
+<p>&nbsp;</p>
+
+<p>반응형 디자인?</p>
+
+<p>&nbsp;화면의 크기에 따라서 웹페이지의 각 요소들이 반응해서 동작하는 것</p>
+
+<p style="margin:0in;font-family:&quot;Malgun Gothic&quot;;font-size:10.0pt">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<img src=" CSS19.jpg" width="600">
+
+<p>&nbsp;</p>
+
+<img src=" CSS20.jpg" width="600">
+
+<p>&nbsp;</p>
+
+<img src=" CSS21.jpg" width="600">
+
+<p>&nbsp;반응형으로 넓이가 800이상일때 조건(Query) 성립 </p>
+
+<img src=" CSS22.jpg" width="600">
+
+<p>&nbsp;조건 성립으로 안보이게 됨</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<h2>미디어 쿼리를 이용해서 반응형 디자인 구현하기</h2>
+
+<p>&nbsp;</p>
+
+<img src=" CSS23.jpg" width="600">
+
+<p>&nbsp;</p>
+<img src=" CSS24.jpg" width="600">
+
+<p>&nbsp;해당 코드(Media query)를 적용 시킨 후 반응형으로 만듬</p>
+
+<p>미디어쿼리가 무엇인가?</p>
+
+<p>다양한 환경에서 웹에서 어떻게 적응했는가?</p>
+
+<p>미디어 쿼리가 필요한 상황에서 어떤 것을 공부해야 되는가?</p>
+
+<p>어떤 공부가 필요한지 아는 과정이였음</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>참고)&nbsp;<a href="https://developer.mozilla.org/ko/docs/Web/Guide/CSS/Media_queries" style="font-size: 13.3333px; font-family: &quot;Malgun Gothic&quot;;">https://developer.mozilla.org/ko/docs/Web/Guide/CSS/Media_queries</a></p>
+
+
+
+<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal; text-align: center;">CSS 코드의 재사용</h1>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px;">각각의 모든 웹페이지 수정할 페이지가 1억개라면 ? 어떻게 바꿀까?</span></strong></p>
+
+<p>중복의 제거가 필요하다.</p>
+
+<p>css 파일을 따로 생성!</p>
+
+<p>&lt;link&gt; 로 설정 css 파일로 연결하면 해결!</p>
+
+<p>&lt;link rel="stylesheet" href="style.css"&gt;</p>
+
+<p>효과/ 소스 코드 감소, 인터넷 트래픽&nbsp;절약</p>
+
+<p><span style="font-size:18px;"><strong>--&gt; 효율적인 사용</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+<img src=" CSS25.jpg" width="1000">
+
+
+<p><span style="font-size:18px;"><strong>--&gt; 현재 reload 했을 때 내부적으로 어떤 파일들을 웹서버에서 다운로드하는지를 보여주는 기능 </strong></span></p>
+<p>&nbsp;</p>
+
+<p>하나의 웹페이지에서 여러 개의 파일들을 별도로 바깥에 두고 그것을 다운로드하는 것 </p>
+<p>그냥 웹 페이지 안에 css 코드를 내장하는 것 </p>
+<p>중에서 network 측면에서 더 효율적일까?</p> 
+
+<p>&nbsp;</p>
+웹 페이지 안에 CSS안에 넣는 게 더 효율적이지만 
+<p>&nbsp;</p>
+
+Caching을 사용하면 달라진다.<p>&nbsp;</p>
+ 한 번이라도 style.css 파일을 다운로드하였다면, 저 파일이 바뀌기 전까지 style.css 파일을 웹 브라우저는 우리 로컬 PC에 저장했다가 style.css 파일을 요청하면 저장된 결과를 가져와서 속도를 높일 수 있고, 네트워크를 안 쓰기 때문에 사업자들은 돈을 아낀다.<p>&nbsp;</p>
+ 훨씬 더 빠르게 웹페이지를 보여주고 트래픽 사용료를 더 적게 낼 수 있다.<p>&nbsp;</p>
+
+
+</div>
+
+<div class="three">
+<h1><strong>JavaScript</strong></h1>
+
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">WEB2 - JavaScript</h1>
+</hgroup>
+
+<p>&nbsp;</p>
+
+HTML은 정적이다.
+<p>&nbsp;</p>
+JavaScript는 동적, 사용자와 상호작용한다. 반응형 / 상호 작용을 위해 태어난 것
+<p>&nbsp;</p>
+HTML을 base로 JavaScript의 기능을 더해 하나의 시스템으로 나아감.
+<p>&nbsp;</p>
+HTML는 정보라는 멈춰있는 '이미지'라면 JS는 동영상 혹은 애니메이션과 같다. 
+<p>&nbsp;</p>
+
+</div>
+
+<div class="entry-content" style="padding: 10px; font-size: 1.1em; line-height: 1.8;">&nbsp;</div>
+
+<div class="entry-content" style="padding: 10px; font-size: 1.1em; line-height: 1.8;">
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">수업의 목적</h1>
+</hgroup>
+
+<p>&nbsp;</p>
+JS 사용자와 상호작용하는 언어이다.
+<p>&nbsp;</p>
+Web browser는 한 번 화면에 출력되면 자기 자신은 못 바꾸지만, JS를 이용하면 얼마든지 즉시 변경 가능하다. 예를 들어 body tag에 코드(CSS의 Sytle)를 추가 변경/적용하여 속성을 바꿀 수 있다.
+<p>&nbsp;</p>
+이러한 특성이 Web page를 동적으로 만든다.
+<p>&nbsp;</p>
+
+
+<h1 class="entry-title" style="font-size: 1.3em;  color: rgb(51, 51, 51); font-weight: normal; text-align: center;">HTML과 JavaScript의 만남 1 (script 태그)</h1>
+
+<hr>
+
+
+<pre class="brush: html" style=" border : 3px silver double;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+    	&lt;body&gt;
+			&lt;h1&gt;JavaScript&lt;/h1&gt;
+			&lt;script&gt;
+						
+			document.write(1+1);
+			
+			&lt;/script&gt;		
+		&lt;h1&gt;html&lt;/h1&gt;
+		1+1
+		
+		&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<p>&nbsp;</p>
+
+<p><b>HTML과 JS는 Hellworld 출력 시 보기엔 다를게 없다.</b></p>
+
+<p><b>무슨 차이 일까?</b></p>
+
+<img src=" JS1.jpg" width="300">
+
+<p>JS는 숫자 1+1을 계산해서 출력하는 것과 같이 동적인 반면, HTML은 정적이다.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">HTML과 JavaScript의 만남 2 (이벤트)</h1>
+</hgroup>
+
+<pre class="brush: html" style=" border : 3px silver double;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+    &lt;body&gt;
+		
+		&lt;input type="button" value="hi" onclick="alert('hi')"&gt;
+		&lt;input type="text" onchange="alert('changed')"&gt;
+		&lt;input type="text" onkeydown="alert('keydown!')"&gt;
+		
+		
+	&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<p>&nbsp;</p>
+<img src=" JS2.jpg" width="500">
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>onclick 이란 속성값으로는 반드시 JS가 와야한다. onclick 속성값은 Web bowser가 기억하고 있다가 onclick&nbsp;속성이 위치하고 있는 태그를 사용자가 클릭 했을 때 기억하고 있었던 JS&nbsp;코드를 JS의 문법에 따라서 해석해서 거기 적혀 있는대로 <span style="font-size: 12px;">Web bows</span><span style="font-size: 12px;">er</span>가 동작할 것이다.</p>
+
+<p>&nbsp;</p>
+
+<p>이번 주제의 주인공은 on으로 시작하는 속성들이다. 이런 속성(attribute)들을 이벤트라고 한다. 이러한 이벤트들을 사용자들에게 유용할 만한 것들을 10~20개 정도 정리해 놓았고, 이런 것들을 이용해 사용자와 상호작용하는 코드를 만들 수 있다.</p>
+
+<p>&nbsp;</p>
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">HTML과 JavaScript의 만남 3 (콘솔)</h1>
+</hgroup>
+
+
+
+<p>chrom 콘솔 사용 방법</p>
+
+<p>&nbsp;</p>
+<img src=" JS3.jpg" width="500">
+<p>&nbsp;</p>
+<img src=" JS4.jpg" width="500">
+<p>&nbsp;</p>
+<img src=" JS5.jpg" width="500">
+<p>&nbsp;</p>
+
+
+
+
+
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">데이터타입 - 문자열과 숫자</h1>
+</hgroup>
+<p>&nbsp;</p>
+<img src=" JS6.jpg" width="700">
+<p>&nbsp;</p>
+<strong style="font-size:20px">JavaScript data type 소개</strong>
+&nbsp;
+<br>
+<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures">https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures</a>
+
+<p>&nbsp;</p>
+<img src=" JS7.jpg" width="300">
+
+<p>&nbsp;</p>
+
+<img src=" JS8.jpg" width="300">
+
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">변수와 대입 연산자</h1>
+</hgroup>
+
+
+<strong style="font-size:20px">JavaScript string 문법 찾기</strong>
+&nbsp;
+<br>
+
+<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String">https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String</a>
+<p>&nbsp;</p>
+<img src=" JS9.jpg" width="200">
+<p>
+--> 숫자 열을 먼저 연산할 경우 앞에 숫자를 연산 후에 문자열로 병합한다.<br>
+--> 문자 열을 먼저 쓸 경우는 그냥 연산하지 않고 문자열로 병합한다. 
+</p>
+
+<p>&nbsp;</p>
+<img src=" JS10.jpg" width="500">
+<p>&nbsp;</p>
+
+<p>&nbsp;변수의 효용/ 변수 사용 예시</p>
+
+<p><img src=" JS11.jpg" width="1000"><br>
+--> 대입연산자 '=' </p>
+<img src=" JS12.jpg" width="500">
+<p>&nbsp;</p>
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">웹브라우저 제어</h1>
+</hgroup>
+
+
+<p>&nbsp;</p>
+
+CSS 관한 설명 - 딱히 별거없었음.
+
+<p>&nbsp;</p>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+마지막으로 완성하면 사이트 정리해서 
+https://ofcourse.kr/ 사이트같이 만들어 볼 것 
+
+
+
+
+</body></html>
+>>>>>>> refs/remotes/origin/master
