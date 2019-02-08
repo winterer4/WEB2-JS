@@ -34,24 +34,24 @@
 	html, body{ background-color : white; margin: 0px;}
 
    
-   div#block h1{ font-size : 500%; text-align : center;
-   border-bottom : 10px double silver; background-color : #000000; color:yellow;
-   padding : 20px; margin: 0px;}
+	div#block h1{ font-size : 500%; text-align : center;
+	   border-bottom : 10px double silver; background-color : #000000; color:yellow;
+	   padding : 20px; margin: 0px;}
    
  
-   
-  div#grid > ol{
-  border-right : 15px groove silver;
-  width: 100px;
-  margin: 0;
-  padding : 20px;
-  }
-  body{margin:0;}
+	   
+	div#grid > ol{
+	  border-right : 15px groove silver;
+	  width: 100px;
+	  margin: 0;
+	  padding : 20px;
+	  }
+ 	body{margin:0;}
   
     #grid{
- 	display : grid;
- 	grid-template-columns : 150px 1fr;
- 	}
+	 	display : grid;
+	 	grid-template-columns : 150px 1fr;
+	 	}
  	#block{dispaly : block;}
  	
  	#grid ol{padding-left : 33px;}
@@ -65,10 +65,10 @@
 	 	}
 	 	
 	.wrap {
-	display : grid;
-	grid-template-row : auto;
-	}
-	
+		display : grid;
+		grid-template-row : auto;
+		}
+		
 	.three{ border-top : 10px groove silver;}
    
 
@@ -747,12 +747,131 @@ Web browser는 한 번 화면에 출력되면 자기 자신은 못 바꾸지만,
 CSS 관한 설명 - 딱히 별거없었음.
 
 <p>&nbsp;</p>
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">CSS 기초</h1>
+</hgroup>
+
+<div class="entry-content" id="content" style="padding: 10px; font-size: 1.1em; line-height: 1.8;">
+<p style="font-size: 13.2px;">아래 질문에 대답할 수 있다면 이 수업은 듣지 말고 다음 수업인 &#39;제어할 태그 선택하기&#39;로 바로 넘어가셔요.&nbsp;</p>
+
+<p style="font-size: 13.2px;">--&gt; 알고있으니 대충 넘어감</p>
+
+<p style="font-size: 13.2px;"><span style="font-size:16px;"><strong>CSS는 어떤 목적의 언어인가요?</strong></span></p>
+
+<ul style="box-sizing: border-box; font-family: &quot;\\B098눔고딕&quot;, nanumgothic, se_NanumGothic, sans-serif; margin-top: 0.3em; margin-left: 1.6em; color: rgb(0, 10, 25); font-size: 16px; background-color: rgb(255, 255, 255);">
+	<li style="font-size: 13.2px;"><span style="font-size:16px;">웹디자인을 더 효율적이고 , 가독성을 높이기 위한, 유지보수를 편리하기 위한 언어</span></li>
+	<li style="box-sizing: border-box;"><span style="font-size:16px;">웹페이지의 형식을 정의하는 언어 (표준)</span></li>
+	<li style="box-sizing: border-box;"><span style="font-size:16px;">웹페이지의 시각적 요소를 제어함</span></li>
+	<li style="box-sizing: border-box;"><span style="font-size:16px;"><a class="mw-redirect" href="https://zetawiki.com/wiki/%EC%84%A0%ED%83%9D%EC%9E%90" style="box-sizing: border-box; background-color: transparent; color: rgb(0, 153, 221); word-break: break-all;" title="선택자">선택자</a>와 선언문(속성 + 값)으로 구성됨</span></li>
+	<li style="box-sizing: border-box;"><span style="font-size:16px;">HTML 태그, 또는 거기에 지정된 ID 및 클래스이름을 통해 계층적으로 형식을 정의할 수 있음</span></li>
+	<li style="box-sizing: border-box;"><span style="font-size:16px;"><a class="mw-redirect" href="https://zetawiki.com/wiki/%EC%85%80%EB%A0%89%ED%84%B0" style="box-sizing: border-box; background-color: transparent; color: rgb(0, 153, 221); word-break: break-all;" title="셀렉터">셀렉터</a>&nbsp;대상의 속성 값을 설정</span></li>
+</ul>
+
+<p style="box-sizing: border-box;">&nbsp;</p>
+
+<p style="font-size: 13.2px;"><span style="font-size:16px;">CSS를 웹페이지에 삽입하는 방법은 무엇인가요?&nbsp;</span></p>
+
+<ul style="box-sizing: inherit; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 15px;">
+	<li style="box-sizing: inherit;">External style sheet</li>
+	<li style="box-sizing: inherit;">Internal style sheet</li>
+	<li style="box-sizing: inherit;">Inline style</li>
+</ul>
+
+<p style="box-sizing: inherit;">&nbsp;</p>
+
+<p style="box-sizing: inherit;">http://k96-ozon.tistory.com/7</p>
+
+<p style="box-sizing: inherit;">&nbsp;</p>
+
+<p style="font-size: 13.2px;">&nbsp;</p>
+
+<p style="font-size: 13.2px;"><span style="font-size:16px;">style 속성은 무엇인가요?&nbsp;&nbsp;</span></p>
+
+<p style="font-size: 13.2px;">selector(선택자)와&nbsp; declaration(선언)를 사용하기 위한 태그</p>
+
+<p style="font-size: 13.2px;">&nbsp;</p>
+
+<p style="font-size: 13.2px;"><span style="font-size:16px;">선택자가 무엇인가요?</span></p>
+
+<ul style="box-sizing: border-box; font-family: &quot;\\B098눔고딕&quot;, nanumgothic, se_NanumGothic, sans-serif; margin-top: 0.3em; margin-left: 1.6em; color: rgb(0, 10, 25); font-size: 16px; background-color: rgb(255, 255, 255);">
+	<li style="box-sizing: border-box;">HTML 요소를 선택하여 조작할 수 있게 해주는 것</li>
+	<li style="box-sizing: border-box;">id, class, type, attribute 등으로 선택 가능</li>
+</ul>
+</div>
+
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">제어할 태그 선택하기</h1>
+</hgroup>
+
+<p>	
+간단하게 JS에서 선택자를 배움</p>
+
+
+<p>JS Attribute 검색 예제 :javascript select tag by css selector, javascript element style </p>
+
+<img src=" JS13.jpg" width="500">
+
+
+
+	<input type="button" value="night" onclick="
+	document.querySelector('body').style.backgroundColor='black';
+	document.querySelector('body').style.color='white';
+	">
+	<input type="button" value="day" onclick="
+	document.querySelector('body').style.backgroundColor='white';
+	document.querySelector('body').style.color='black';
+	">
+
+<p> day, night 버튼으로 Style 변경 </p>
+
+
+
+<hgroup style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid rgb(51, 51, 51); font-size: 12px; position: relative; text-align: center; line-height: 1.8;">
+	<h1 class="entry-title" style="font-size: 2.1em; color: rgb(51, 51, 51); font-weight: normal;">프로그램, 프로그래밍, 프로그래머</h1>
+</hgroup>
+
+<p>
+<strong>JavaScript는 무엇인가? 무엇을 할 수 있는가?</strong> </p>
+프로그래밍 언어가 무엇인지 되돌아 보기
+
+<strong>HTML 과 JS는 둘다 컴퓨터 언어(language)이다.<br>
+JS는 programming language이다.<br>
+HTML은 programming language이 아니다.<br></strong>
+
+이유는?<br>
+
+HTML은 Web page 묘사하는 목적에 언어이기 때문에 시간에 순서에 따라서 무엇을 할 필요가 없다.<br>
+
+JS는 사용자와 상호작용을 하기 위한 언어이다. 그러기 위해서는 시간의 순서에 따라서 Web browser의 여러 기능이 실행 되어야 한다.
+Programming이라는 특징을 가진다.
+<br>
+이 차이가 HTML과 JavaScript의 가장 큰 차이이다.
+<br>
+
+program 어원 : 시간의 흐름에 따라 연주되는 순서를 program
+<br>
+순서를 만드는 행위를 programming<br>
+순서를 만드는 사람을 program<br>
+
+
+시간의 순서에 따라서 실행되어야할 기능을 프로그래밍 언어 문법에 맞게 글로 적어두는 방식을 고안<br>
+-> Software에서의 Programming
+
+<br>
+
+
+
+
+
+
+
 </div>
 
 
 
 
-</div>
 
 
 
